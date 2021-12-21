@@ -1,24 +1,24 @@
 .board {
-    width:300px;
-    height:300px;
-    margin: 0 auto;
-    margin-top: 10%;
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: repeat(3,1fr);
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 10%;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .space {
-    width:100px;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size:xx-large;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
 }
 .space:nth-child(3n-2),
 .space:nth-child(3n-1) {
-    border-right: 1px solid black;
+  border-right: 1px solid black;
 }
-.space:nth-child(n+4) {
-    border-top: 1px solid black;
+.space:nth-child(n + 4) {
+  border-top: 1px solid black;
 }
